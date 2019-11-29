@@ -1,4 +1,4 @@
 library trianglify;
 
-export 'src/palette.dart';
-export 'src/trianglify.dart';
+export 'package:flutter_trianglify/src/trianglify.dart';
+export 'package:flutter_trianglify/src/palette.dart';
