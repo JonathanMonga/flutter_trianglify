@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_trianglify/trianglify.dart';
-
 class TrianglifySample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
