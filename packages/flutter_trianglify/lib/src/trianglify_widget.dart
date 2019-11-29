@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 import 'package:flutter/material.dart'
-    show BuildContext, Canvas, Center, ClipRect, Color, Colors, Container, CustomPaint, CustomPainter, Offset, Paint, PaintingStyle, Path, PathFillType, Size, SizedBox, Widget, required;
+    show BuildContext, Canvas, Center, ClipRect, Color, Colors, Container, CustomPaint, CustomPainter, Offset, Paint, PaintingStyle, Path, PathFillType, Size, Widget, required;
 import 'package:flutter_trianglify/src/abstract_trianglify.dart';
 import 'package:flutter_trianglify/src/palette.dart';
 import 'package:flutter_trianglify/src/triangulation.dart';
