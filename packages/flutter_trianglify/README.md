@@ -6,6 +6,14 @@ Flutter widget inspired by http://qrohlf.com/trianglify/
 
 <img src="https://raw.githubusercontent.com/JonathanMonga/flutter_trianglify/master/screenshots/screenshot.png" alt="Demo Screenshot" height="35%" width="35%"/>
 
+## Installation
+[![Pub](https://img.shields.io/badge/pub-1.2.0-blue)](https://pub.dev/packages/flutter_trianglify)
+
+Add the Package
+```yaml
+dependencies:
+  flutter_trianglify: ^0.0.6
+```
 
 # Usage
 
@@ -48,7 +56,7 @@ In order to run the command line example, please follow these steps:
 
 1. Clone this repo and enter the directory
 2. Run `pub get`
-3. Run `dart example/example.dart`
+3. Run `dart example/lib/trianglify_example.dart`
 
 ### Flutter Example
 
@@ -61,7 +69,7 @@ In order to run the flutter example, you must have Flutter installed. For instal
 
 1. Open up an Android Emulator, the iOS Simulator, or connect an appropriate mobile device for debugging.
 2. Open up a terminal
-3. `cd` into the `example/flutter/github_search` directory
+3. `cd` into the `example/lib/trianglify_example` directory
 4. Run `flutter doctor` to ensure you have all Flutter dependencies working.
 5. Run `flutter packages get`
 6. Run `flutter run`
