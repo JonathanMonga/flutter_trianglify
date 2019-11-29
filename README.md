@@ -8,26 +8,25 @@ Android view inspired by http://qrohlf.com/trianglify/
 
 # Usage
 
-````
 Cell size, variance, bleeds, color generator can be initialized from Widget:
 
 ```dart
-        Trianglify(
-          bleedX: 0,
-          bleedY: 10,
-          cellSize: 35,
-          gridWidth: MediaQuery.of(context).size.width + (200 * scaleFactor),
-          gridHeight: 400 * scaleFactor,
-          isDrawStroke: true,
-          isFillTriangle: true,
-          isFillViewCompletely: false,
-          isRandomColoring: false,
-          generateOnlyColor: false,
-          typeGrid: Trianglify.GRID_RECTANGLE,
-          variance: 20,
-          palette: Palette.getPalette(Palette.BLUES),
-        )
-````
+    Trianglify(
+        bleedX: 0,
+        bleedY: 10,
+        cellSize: 35,
+        gridWidth: MediaQuery.of(context).size.width + (200 * scaleFactor),
+        gridHeight: 400 * scaleFactor,
+        isDrawStroke: true,
+        isFillTriangle: true,
+        isFillViewCompletely: false,
+        isRandomColoring: false,
+        generateOnlyColor: false,
+        typeGrid: Trianglify.GRID_RECTANGLE,
+        variance: 20,
+        palette: Palette.getPalette(Palette.BLUES),
+    )
+```
 
 ## Examples
 
