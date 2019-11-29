@@ -47,7 +47,7 @@ In order to run the command line example, please follow these steps:
 
 1. Clone this repo and enter the directory
 2. Run `pub get`
-3. Run `dart example/example.dart 10`
+3. Run `dart example/example.dart`
 
 ### Flutter Example
 
