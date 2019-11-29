@@ -1,12 +1,10 @@
-import 'package:analog_clock/trianglify/triangulator/edge_2d.dart';
-import 'package:analog_clock/trianglify/triangulator/triangle_2d.dart'
-    show Triangle2D;
-import 'package:analog_clock/trianglify/triangulator/triangle_soup.dart'
-    show TriangleSoup;
-import 'package:analog_clock/trianglify/triangulator/vector_2d.dart'
-    show Vector2D;
 
 import 'dart:math' as math;
+
+import 'package:flutter_trianglify/src/triangulator/edge_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/triangle_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/triangle_soup.dart';
+import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';
 
 /// A Dart implementation of an incremental 2D Delaunay triangulation algorithm.
 class DelaunayTriangulator {

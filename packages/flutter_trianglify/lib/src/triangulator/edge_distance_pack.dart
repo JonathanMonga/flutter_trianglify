@@ -1,4 +1,4 @@
-import 'package:analog_clock/trianglify/triangulator/edge_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/edge_2d.dart';
 
 /// Edge distance pack class implementation used to describe the distance to a
 /// given edge.

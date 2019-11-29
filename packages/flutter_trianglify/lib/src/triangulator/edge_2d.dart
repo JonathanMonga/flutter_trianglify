@@ -1,5 +1,5 @@
 
-import 'package:analog_clock/trianglify/triangulator/vector_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';
 
 /// 2D edge class implementation.
 class Edge2D {

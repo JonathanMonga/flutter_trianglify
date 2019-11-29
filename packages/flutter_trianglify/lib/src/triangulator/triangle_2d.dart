@@ -1,6 +1,7 @@
-import 'package:analog_clock/trianglify/triangulator/edge_2d.dart';
-import 'package:analog_clock/trianglify/triangulator/edge_distance_pack.dart';
-import 'package:analog_clock/trianglify/triangulator/vector_2d.dart';
+
+import 'package:flutter_trianglify/src/triangulator/edge_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/edge_distance_pack.dart';
+import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';
 
 ///2D triangle class implementation.
 class Triangle2D {
