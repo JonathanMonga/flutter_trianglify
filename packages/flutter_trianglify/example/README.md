@@ -1,4 +1,4 @@
-# Example for Download Progress Dialog
+# Example for Flutter Trianglify
 
 ```dart
     Trianglify(
@@ -18,7 +18,7 @@
     )
 ```
 
-# Complete Example for Download Progress Dialog
+# Complete Example for Flutter Trianglify
 
 ```dart
 import 'package:flutter/material.dart';
