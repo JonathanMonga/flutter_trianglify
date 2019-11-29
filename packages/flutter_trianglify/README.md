@@ -4,7 +4,8 @@
 
 Flutter widget inspired by http://qrohlf.com/trianglify/
 
-<img src="screenshots/screenshot.png " alt="Demo Screenshot" width="250" />
+<img src="https://raw.githubusercontent.com/JonathanMonga/flutter_trianglify/master/screenshots/screenshot.png" alt="Demo Screenshot" height="35%" width="35%"/>
+
 
 # Usage
 
