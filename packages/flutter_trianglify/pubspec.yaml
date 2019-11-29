@@ -1,6 +1,6 @@
 name: flutter_trianglify
 description: Flutter library to generate beautiful triangle art views for android and ios.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/JonathanMonga/flutter_trianglify
 authors:
   - Jonathan Monga <jmonga98@gmail.com>
