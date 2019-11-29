@@ -14,7 +14,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_trianglify: ^0.0.6
+  flutter_trianglify: ^0.0.7
 
 flutter:
   uses-material-design: true
