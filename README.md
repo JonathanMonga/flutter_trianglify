@@ -1,6 +1,6 @@
 # Trianglify for Flutter
 
-[![Build Status](https://travis-ci.org/manolovn/trianglify.svg?branch=master)](https://travis-ci.org/manolovn/trianglify)
+[![Build Status](https://travis-ci.org/JonathanMonga/flutter_trianglify.svg?branch=master)](https://travis-ci.org/JonathanMonga/flutter_trianglify)
 
 Android view inspired by http://qrohlf.com/trianglify/
 
