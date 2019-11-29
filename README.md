@@ -4,7 +4,16 @@
 
 Flutter widget inspired by http://qrohlf.com/trianglify/
 
-<img src="https://raw.githubusercontent.com/JonathanMonga/flutter_trianglify/master/screenshots/screenshot.png " alt="Demo Screenshot" width="250" />
+<img src="https://raw.githubusercontent.com/JonathanMonga/flutter_trianglify/master/screenshot.png " alt="Demo Screenshot" width="250" />
+
+## Installation
+[![Pub](https://img.shields.io/badge/pub-1.2.0-blue)](https://pub.dev/packages/flutter_trianglify)
+
+Add the Package
+```yaml
+dependencies:
+  flutter_trianglify: ^0.0.2
+```
 
 # Usage
 
