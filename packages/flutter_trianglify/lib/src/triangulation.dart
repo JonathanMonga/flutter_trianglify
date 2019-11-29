@@ -1,4 +1,4 @@
-import 'package:analog_clock/trianglify/triangulator/triangle_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/triangle_2d.dart';
 
 class Triangulation {
   List<Triangle2D> triangleList;

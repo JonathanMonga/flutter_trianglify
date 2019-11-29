@@ -1,14 +1,14 @@
-import 'package:analog_clock/trianglify/trianglify_widget.dart';
-import 'package:analog_clock/trianglify/colorizers/colorizer.dart';
-import 'package:analog_clock/trianglify/colorizers/fixed_points_colorizer.dart';
-import 'package:analog_clock/trianglify/palette.dart';
-import 'package:analog_clock/trianglify/pattern/circle.dart';
-import 'package:analog_clock/trianglify/pattern/patterns.dart';
-import 'package:analog_clock/trianglify/pattern/rectangle.dart';
-import 'package:analog_clock/trianglify/triangulation.dart';
-import 'package:analog_clock/trianglify/triangulator/delaunay_triangulator.dart';
-import 'package:analog_clock/trianglify/triangulator/vector_2d.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_trianglify/src/colorizers/colorizer.dart';
+import 'package:flutter_trianglify/src/colorizers/fixed_points_colorizer.dart';
+import 'package:flutter_trianglify/src/palette.dart';
+import 'package:flutter_trianglify/src/pattern/circle.dart';
+import 'package:flutter_trianglify/src/pattern/patterns.dart';
+import 'package:flutter_trianglify/src/pattern/rectangle.dart';
+import 'package:flutter_trianglify/src/trianglify_widget.dart';
+import 'package:flutter_trianglify/src/triangulation.dart';
+import 'package:flutter_trianglify/src/triangulator/delaunay_triangulator.dart';
+import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';
 
 class Trianglify extends StatelessWidget {
   static const int GRID_RECTANGLE = 0;
@@ -84,7 +84,6 @@ class Trianglify extends StatelessWidget {
   /// Creates triangles from a list of points
   /// @param inputGrid Grid of points for generating triangles
   /// @return List of Triangles generated from list of input points
-
   Triangulation _generateTriangulation(List<Vector2D> inputGrid) {
     DelaunayTriangulator triangulator = DelaunayTriangulator(inputGrid);
     try {

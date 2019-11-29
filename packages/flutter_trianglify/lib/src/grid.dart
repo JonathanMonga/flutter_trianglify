@@ -1,4 +1,4 @@
-import 'package:analog_clock/trianglify/triangulator/vector_2d.dart';
+import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';
 
 class Grid {
   List<Vector2D> gridPoints;

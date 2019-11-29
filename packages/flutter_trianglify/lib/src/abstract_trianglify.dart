@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:analog_clock/trianglify/palette.dart';
-import 'package:analog_clock/trianglify/triangulation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_trianglify/src/palette.dart';
+import 'package:flutter_trianglify/src/triangulation.dart';
 
 /// A base class for an trianglify-drawing widget.
 abstract class AbstractTrianglify extends StatelessWidget {

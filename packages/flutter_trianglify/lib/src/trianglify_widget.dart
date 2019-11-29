@@ -1,15 +1,12 @@
 // Copyright 2019 Jonathan Monga. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-
-import 'package:analog_clock/trianglify/abstract_trianglify.dart'
-    show AbstractTrianglify;
-import 'package:analog_clock/trianglify/palette.dart' show Palette;
-import 'package:analog_clock/trianglify/triangulation.dart' show Triangulation;
-import 'package:analog_clock/trianglify/triangulator/triangle_2d.dart'
-    show Triangle2D;
 import 'package:flutter/material.dart'
     show BuildContext, Canvas, Center, ClipRect, Color, Colors, Container, CustomPaint, CustomPainter, Offset, Paint, PaintingStyle, Path, PathFillType, Size, SizedBox, Widget, required;
+import 'package:flutter_trianglify/src/abstract_trianglify.dart';
+import 'package:flutter_trianglify/src/palette.dart';
+import 'package:flutter_trianglify/src/triangulation.dart';
+import 'package:flutter_trianglify/src/triangulator/triangle_2d.dart';
 
 /// A triangle that is drawn with [CustomPainter]
 class TrianglifyWidget extends AbstractTrianglify {
