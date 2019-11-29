@@ -1,16 +1,127 @@
-# flutter_trianglify_example
+# Example for Download Progress Dialog
 
-Demonstrates how to use the flutter_trianglify plugin.
+```dart
+    Trianglify(
+        bleedX: 0,
+        bleedY: 10,
+        cellSize: 35,
+        gridWidth: MediaQuery.of(context).size.width + (200 * scaleFactor),
+        gridHeight: 400 * scaleFactor,
+        isDrawStroke: true,
+        isFillTriangle: true,
+        isFillViewCompletely: false,
+        isRandomColoring: false,
+        generateOnlyColor: false,
+        typeGrid: Trianglify.GRID_RECTANGLE,
+        variance: 20,
+        palette: Palette.getPalette(Palette.BLUES),
+    )
+```
 
-## Getting Started
+# Complete Example for Download Progress Dialog
 
-This project is a starting point for a Flutter application.
+```dart
+import 'package:flutter/material.dart';
 
-A few resources to get you started if this is your first Flutter project:
+import 'package:flutter_trianglify/flutter_trianglify.dart';
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+class TrianglifySample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: SafeArea(
+          child: Material(
+            child: CustomScrollView(
+              slivers: [
+                SliverPersistentHeader(
+                  delegate: MySliverAppBar(expandedHeight: 200),
+                  pinned: true,
+                ),
+                SliverList(
+                  delegate: SliverChildBuilderDelegate(
+                    (_, index) => ListTile(
+                      title: Text("Index: $index"),
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+        ));
+  }
+}
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+class MySliverAppBar extends SliverPersistentHeaderDelegate {
+  static const double BASE_SIZE = 320.0;
+
+  final double expandedHeight;
+
+  MySliverAppBar({@required this.expandedHeight});
+
+  @override
+  Widget build(
+      BuildContext context, double shrinkOffset, bool overlapsContent) {
+        double scaleFactor = MediaQuery.of(context).size.shortestSide / BASE_SIZE;
+    return Stack(
+      fit: StackFit.expand,
+      overflow: Overflow.visible,
+      children: [
+        Trianglify(
+          bleedX: 0,
+          bleedY: 10,
+          cellSize: 35,
+          gridWidth: MediaQuery.of(context).size.width + (200 * scaleFactor),
+          gridHeight: 400 * scaleFactor,
+          isDrawStroke: true,
+          isFillTriangle: true,
+          isFillViewCompletely: false,
+          isRandomColoring: false,
+          generateOnlyColor: false,
+          typeGrid: Trianglify.GRID_RECTANGLE,
+          variance: 20,
+          palette: Palette.getPalette(Palette.BLUES),
+        ),
+        Center(
+          child: Opacity(
+            opacity: shrinkOffset / expandedHeight,
+            child: Text(
+              "MySliverAppBar",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
+                fontSize: 23,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          top: expandedHeight / 2 - shrinkOffset,
+          left: MediaQuery.of(context).size.width / 4,
+          child: Opacity(
+            opacity: (1 - shrinkOffset / expandedHeight),
+            child: Card(
+              elevation: 10,
+              child: SizedBox(
+                height: expandedHeight,
+                width: MediaQuery.of(context).size.width / 2,
+                child: FlutterLogo(),
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  @override
+  double get maxExtent => expandedHeight;
+
+  @override
+  double get minExtent => kToolbarHeight;
+
+  @override
+  bool shouldRebuild(SliverPersistentHeaderDelegate oldDelegate) => true;
+}
+
+```
