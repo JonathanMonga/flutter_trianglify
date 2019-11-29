@@ -1,6 +1,7 @@
 # Trianglify for Flutter
 
 [![Build Status](https://travis-ci.org/JonathanMonga/flutter_trianglify.svg?branch=master)](https://travis-ci.org/JonathanMonga/flutter_trianglify)
+[![codecov](https://codecov.io/gh/JonathanMonga/flutter_trianglify/branch/master/graph/badge.svg)](https://codecov.io/gh/JonathanMonga/flutter_trianglify)
 
 Flutter widget inspired by http://qrohlf.com/trianglify/
 
