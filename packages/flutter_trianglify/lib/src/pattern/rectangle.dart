@@ -1,6 +1,7 @@
-import 'package:analog_clock/trianglify/pattern/patterns.dart';
-import 'package:analog_clock/trianglify/thread_local_random.dart';
-import 'package:analog_clock/trianglify/triangulator/vector_2d.dart';
+
+import 'package:flutter_trianglify/src/pattern/patterns.dart';
+import 'package:flutter_trianglify/src/thread_local_random.dart';
+import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';
 
 class Rectangle implements Patterns {
   ThreadLocalRandom random;
