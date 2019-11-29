@@ -2,7 +2,24 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 import 'package:flutter/material.dart'
-    show BuildContext, Canvas, Center, ClipRect, Color, Colors, Container, CustomPaint, CustomPainter, Offset, Paint, PaintingStyle, Path, PathFillType, Size, Widget, required;
+    show
+        BuildContext,
+        Canvas,
+        Center,
+        ClipRect,
+        Color,
+        Colors,
+        Container,
+        CustomPaint,
+        CustomPainter,
+        Offset,
+        Paint,
+        PaintingStyle,
+        Path,
+        PathFillType,
+        Size,
+        Widget,
+        required;
 import 'package:flutter_trianglify/src/abstract_trianglify.dart';
 import 'package:flutter_trianglify/src/palette.dart';
 import 'package:flutter_trianglify/src/triangulation.dart';
@@ -58,28 +75,28 @@ class TrianglifyWidget extends AbstractTrianglify {
   Widget build(BuildContext context) {
     return Center(
         child: Container(
-          color: Colors.white,
+            color: Colors.white,
             width: gridWidth - 50,
             height: gridHeight - 50,
             child: ClipRect(
-      child: CustomPaint(
-        painter: _TrianglifyWidgetPainter(
-            bleedX: 75 + bleedX,
-            bleedY: 28 + bleedY ,
-            typeGrid: typeGrid,
-            gridWidth: gridWidth,
-            gridHeight: gridHeight,
-            variance: variance,
-            cellSize: cellSize,
-            isFillViewCompletely: isFillViewCompletely,
-            isFillTriangle: isFillTriangle,
-            isDrawStroke: isDrawStroke,
-            isRandomColoring: isRandomColoring,
-            palette: palette,
-            triangulation: triangulation),
-        isComplex: true,
-      ),
-    )));
+              child: CustomPaint(
+                painter: _TrianglifyWidgetPainter(
+                    bleedX: 75 + bleedX,
+                    bleedY: 28 + bleedY,
+                    typeGrid: typeGrid,
+                    gridWidth: gridWidth,
+                    gridHeight: gridHeight,
+                    variance: variance,
+                    cellSize: cellSize,
+                    isFillViewCompletely: isFillViewCompletely,
+                    isFillTriangle: isFillTriangle,
+                    isDrawStroke: isDrawStroke,
+                    isRandomColoring: isRandomColoring,
+                    palette: palette,
+                    triangulation: triangulation),
+                isComplex: true,
+              ),
+            )));
   }
 }
 

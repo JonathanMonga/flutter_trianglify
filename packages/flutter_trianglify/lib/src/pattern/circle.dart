@@ -91,7 +91,7 @@ class Circle implements Patterns {
     this.cellSize = cellSize;
     this.variance = variance;
 
-     grid = List();
+    grid = List();
   }
 
   List<Vector2D> generate() {

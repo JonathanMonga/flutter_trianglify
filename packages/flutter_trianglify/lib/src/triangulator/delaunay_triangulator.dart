@@ -1,4 +1,3 @@
-
 import 'dart:math' as math;
 
 import 'package:flutter_trianglify/src/triangulator/edge_2d.dart';
@@ -146,10 +145,8 @@ class DelaunayTriangulator {
         triangleSoup.add(firstTriangle);
         triangleSoup.add(secondTriangle);
 
-        legalizeEdge(
-            firstTriangle, Edge2D(noneEdgeVertex, edge.a), newVertex);
-        legalizeEdge(
-            secondTriangle, Edge2D(noneEdgeVertex, edge.b), newVertex);
+        legalizeEdge(firstTriangle, Edge2D(noneEdgeVertex, edge.a), newVertex);
+        legalizeEdge(secondTriangle, Edge2D(noneEdgeVertex, edge.b), newVertex);
       }
     }
   }

@@ -1,4 +1,3 @@
-
 import 'package:flutter_trianglify/src/triangulator/edge_2d.dart';
 import 'package:flutter_trianglify/src/triangulator/edge_distance_pack.dart';
 import 'package:flutter_trianglify/src/triangulator/triangle_2d.dart';

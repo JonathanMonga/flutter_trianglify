@@ -1,4 +1,3 @@
-
 import 'package:flutter_trianglify/src/colorizers/colorizer.dart';
 import 'package:flutter_trianglify/src/extended_color.dart';
 import 'package:flutter_trianglify/src/palette.dart';

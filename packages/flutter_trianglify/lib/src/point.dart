@@ -17,5 +17,6 @@ class Point {
   /// @param a First Point
   /// @param b Second Point
   /// @return Mid Point
-  static Point midPoint(Point a, Point b) => Point((a.x + a.y) ~/ 2, (b.x + b.y) ~/ 2);
+  static Point midPoint(Point a, Point b) =>
+      Point((a.x + a.y) ~/ 2, (b.x + b.y) ~/ 2);
 }

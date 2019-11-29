@@ -1,4 +1,3 @@
-
 import 'package:flutter_trianglify/src/pattern/patterns.dart';
 import 'package:flutter_trianglify/src/thread_local_random.dart';
 import 'package:flutter_trianglify/src/triangulator/vector_2d.dart';

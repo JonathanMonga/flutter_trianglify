@@ -144,7 +144,7 @@ class Trianglify extends StatelessWidget {
             this.variance.toInt());
         break;
     }
-    
+
     return patterns.generate();
   }
 

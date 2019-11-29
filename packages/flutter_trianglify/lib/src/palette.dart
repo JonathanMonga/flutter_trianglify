@@ -135,8 +135,7 @@ class Palette {
         return Palette(0xa50026, 0xd73027, 0xf46d43, 0xfdae61, 0xfee08b,
             0xffffbf, 0xd9ef8b, 0xa6d96a, 0x66bd63);
       default:
-        throw Exception(
-            "Index should be less Palette.DEFAULT_PALETTE_COUNT");
+        throw Exception("Index should be less Palette.DEFAULT_PALETTE_COUNT");
     }
   }
 
