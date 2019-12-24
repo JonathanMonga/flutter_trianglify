@@ -12,7 +12,7 @@ Flutter widget inspired by http://qrohlf.com/trianglify/
 Add the Package
 ```yaml
 dependencies:
-  flutter_trianglify: ^0.0.6
+  flutter_trianglify: ^0.0.8
 ```
 
 # Usage
