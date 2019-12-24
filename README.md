@@ -7,7 +7,7 @@ Flutter widget inspired by http://qrohlf.com/trianglify/
 <img src="https://raw.githubusercontent.com/JonathanMonga/flutter_trianglify/master/screenshots/screenshot.png" alt="Demo Screenshot" height="35%" width="35%"/>
 
 ## Installation
-[![Pub](https://img.shields.io/badge/pub-1.2.0-blue)](https://pub.dev/packages/flutter_trianglify)
+[![Pub](https://img.shields.io/badge/pub-0.0.8-blue)](https://pub.dev/packages/flutter_trianglify)
 
 Add the Package
 ```yaml
